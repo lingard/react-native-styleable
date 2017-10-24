@@ -5,3 +5,5 @@ export type Theme = {
 export type Themes = {
   [name: string]: Theme
 }
+
+export type StyleCreator = (props: Object) => Object

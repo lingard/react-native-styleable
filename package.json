@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/lingard/react-native-styleable",
   "author": "Christer Lingard",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hoist-non-react-statics": "^2.3.1",
+    "memoizee": "^0.4.11",
+    "prop-types": "^15.6.0",
+    "ramda": "^0.25.0",
+    "recompose": "^0.26.0",
+    "style-equal": "^1.0.0"
+  }
 }

@@ -11,6 +11,8 @@ import hoistStatics from 'hoist-non-react-statics'
 import { shallowEqualArrays, isNotNil } from '@utils'
 import flattenStyleSheets from '../utils/flatten-stylesheets'
 
+import { StyleCreator } from '../types'
+
 const DEFAULT_REF_NAME = 'wrappedInstance'
 
 type Options = {
@@ -36,7 +38,7 @@ type Context = {
 // Helps track hot reloading.
 let nextVersion = 0
 
-const styled = (styles: Function, defaultProps = {}, options = {}) => {
+const styled = (styles: StyleCreator, defaultProps = {}, options = {}) => {
   const {
     withRef = false,
     refName = DEFAULT_REF_NAME,
