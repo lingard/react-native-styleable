@@ -2,7 +2,7 @@
   "name": "react-native-styleable",
   "version": "0.0.1",
   "description": "Composable styling library for react native",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/lingard/react-native-styleable",
   "author": "Christer Lingard",
   "license": "MIT",
